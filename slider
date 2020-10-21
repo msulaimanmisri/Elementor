@@ -1,0 +1,5 @@
+// Slider dekat elementor tiada effect border radius. Kalau kita buat, image dalam tu tidak akan terkesan. Jadi letakkan code CSS ini pada bahagian custom CSS Elementor anda.
+
+.swiper-slide-inner, .swiper-slide-bg, .swiper-slide, .swiper-slide-duplicate, .swiper-slide-next selector {
+    border-radius:10px !important;
+}
